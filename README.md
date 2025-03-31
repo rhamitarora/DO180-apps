@@ -6,3 +6,5 @@ image:
   tag: 1.8.18
 route:
   host: development-etherpad.apps.ocp4.example.com
+
+helm install example-app do280-repo/etherpad -f values.yaml --version 0.0.6
